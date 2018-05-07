@@ -1,12 +1,12 @@
 {
-    "name": "flamelin/ecpay",
+    "name": "zhi8617/ECPay",
     "description": "ECPay for Laravel 5",
     "type": "ecTool",
     "keywords": ["ecpay"],
     "authors": [
         {
-            "name": "AIRO",
-            "email": "service@airo.com.tw"
+            "name": "zhi",
+            "email": "zhi@kimo.com"
         }
     ],
     "minimum-stability": "dev",
