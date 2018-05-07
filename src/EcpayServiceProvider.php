@@ -15,7 +15,7 @@ class EcpayServiceProvider extends ServiceProvider
         include __DIR__.'/routes.php';
 
         //Language
-        $this->loadTranslationsFrom(__DIR__.'/Lang', 'ecpay');
+       // $this->loadTranslationsFrom(__DIR__.'/Lang', 'ecpay');
 
         //Publish Config
         $this->publishes([
@@ -32,7 +32,7 @@ class EcpayServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/Config/ecpay.php', 'ecpay');
 
         //View
-        $this->loadViewsFrom(__DIR__.'/Views', 'ecpay');
+        //$this->loadViewsFrom(__DIR__.'/Views', 'ecpay');
 
         //Facade => Custom Class
         $this->app->singleton('ecpay', function ($app) {
